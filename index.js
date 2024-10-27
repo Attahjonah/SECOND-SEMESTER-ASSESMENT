@@ -11,7 +11,7 @@ function requestHandler(req, res){
     if (req.url === "/index.html" && req.method ==="GET"){
         fs.readFile(filePath, "utf8", (err, data) =>{
             if (err){
-                res.writeHead(400);
+                res.writeHead(500);
                 res.end("An error occured while reading the file");
             } else {
                 res.writeHead(200);
@@ -21,7 +21,7 @@ function requestHandler(req, res){
         });
 
     } else {
-        if (req.url !== "/index.html" && req.method ==="*"){
+        if (req.url !== "/index.html" && req.method ==="GET"){
             res.writeHead(404);
             res.end("File not found");
         }

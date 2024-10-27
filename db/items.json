@@ -1,0 +1,26 @@
+[
+    {
+        "name": "T-shirt",
+        "price": 5000,
+        "size": "large",
+        "id": 1
+    },
+    {
+        "name": "Snicker",
+        "price": 10000,
+        "size": "small",
+        "id": 2
+    },
+    {
+        "name": "Pant",
+        "price": 7000,
+        "size": "medium",
+        "id": 3
+    },
+    {
+        "name": "Snicker",
+        "price": 12000,
+        "size": "large",
+        "id": 4
+    }
+]
