@@ -1,7 +1,7 @@
 [
     {
         "name": "T-shirt",
-        "price": 5000,
+        "price": 6500,
         "size": "large",
         "id": 1
     },
@@ -12,15 +12,15 @@
         "id": 2
     },
     {
-        "name": "Pant",
-        "price": 7000,
+        "name": "vest",
+        "price": 1200,
         "size": "medium",
-        "id": 3
+        "id": 4
     },
     {
-        "name": "Snicker",
-        "price": 12000,
-        "size": "large",
-        "id": 4
+        "name": "Crocks",
+        "price": 800,
+        "size": "Big",
+        "id": 5
     }
 ]
